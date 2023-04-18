@@ -18,4 +18,27 @@ module.exports = ({ env }) => ({
         },
       },
     },
+    'strapi-plugin-populate-deep': {
+      config: {
+        defaultDepth: 20,
+      }
+    },
+    seo: {
+      enabled: true,
+    },
+    graphql: {
+      config: {
+        endpoint: '/graphql',
+        shadowCRUD: true,
+        playgroundAlways: false,
+        depthLimit: 20,
+        amountLimit: 100,
+        apolloServer: {
+          tracing: false,
+        },
+      },
+    },
+    "video-field":{
+      enabled: true,
+    },
   });

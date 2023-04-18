@@ -9,16 +9,21 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.5.5",
-    "@strapi/plugin-users-permissions": "4.5.5",
-    "@strapi/provider-upload-cloudinary": "4.5.5",
-    "@strapi/strapi": "4.5.5",
-    "pg": "8.8.0"
+    "@sklinet/strapi-plugin-video-field": "^1.0.4",
+    "@strapi/plugin-graphql": "^4.9.1",
+    "@strapi/plugin-i18n": "4.9.1",
+    "@strapi/plugin-seo": "^1.8.0",
+    "@strapi/plugin-users-permissions": "4.9.1",
+    "@strapi/provider-upload-cloudinary": "4.9.1",
+    "@strapi/strapi": "4.9.1",
+    "pg": "8.8.0",
+    "strapi-plugin-navigation": "^2.2.7",
+    "strapi-plugin-populate-deep": "^2.0.0",
+    "strapi-plugin-rest-cache": "^4.2.7"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Pavel Astapov"
   },
   "strapi": {
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
