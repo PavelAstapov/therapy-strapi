@@ -23,6 +23,7 @@ module.exports = ({ env }) => ({
         defaultDepth: 20,
       }
     },
+    'navigation': { enabled: true },
     seo: {
       enabled: true,
     },
