@@ -1,7 +1,8 @@
 {
   "collectionName": "components_home_page_teams",
   "info": {
-    "displayName": "team"
+    "displayName": "team",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,12 +15,12 @@
       "required": true
     },
     "img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": true
+      ]
     }
   }
 }
